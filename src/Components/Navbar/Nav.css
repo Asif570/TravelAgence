@@ -1,0 +1,42 @@
+.Nav {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Nav > .menu {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+.Nav > .menu > span {
+  color: #212832;
+  font-size: 17px;
+  cursor: pointer;
+}
+.Nav > .menu > .dropdown {
+  position: relative;
+}
+.Nav > .menu > .dropdown > .items {
+  position: absolute;
+  top: 2.5rem;
+  right: 5.1%;
+  border: 1px solid #1e1a1a;
+  border-radius: 5px;
+}
+.Nav > .menu > .dropdown > .items .item {
+  padding: 0.7rem 2rem;
+  border-bottom: 1px solid #1e1a1a;
+  font-size: 17px;
+}
+.Nav > .menu > .dropdown > .items .item:last-child {
+  border: none;
+}
+.Nav > .menu > .singup {
+  border: 1px solid #212832;
+  padding: 0.3rem 0.7rem;
+  border-radius: 5px;
+}
+.Nav > .menu > .dropdown > .items {
+}
