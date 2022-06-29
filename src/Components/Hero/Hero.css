@@ -5,3 +5,76 @@
   width: 100%;
   height: 100vh;
 }
+
+.Herocontent {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  align-items: center;
+  gap: 0.5rem;
+}
+.Herocontent > .img > img {
+  width: 100%;
+}
+.Herocontent > img {
+  width: 100%;
+}
+
+.Hero > .section > .Herocontent > .text {
+  text-align: start;
+  width: 100%;
+}
+.Hero > .section > .Herocontent > .text > h4 {
+  color: #df6951;
+  font-size: 20px;
+  font-weight: bold;
+}
+.Hero > .section > .Herocontent > .text > h2 {
+  color: #181e4b;
+  font-size: 84px;
+  font-weight: bold;
+  margin: 0;
+}
+.Hero > .section > .Herocontent > .text > h2 > span {
+  display: none;
+}
+.Hero > .section > .Herocontent > .text > p {
+  font-size: 16px;
+  color: #5e6282;
+  margin-top: 5rem;
+  width: 75%;
+}
+.Hero > .section > .Herocontent > .text > .buttons {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+}
+.Hero > .section > .Herocontent > .text > .buttons > span {
+  display: flex;
+  height: 5rem;
+  cursor: pointer;
+  align-items: center;
+  gap: 1.5rem;
+}
+.Hero > .section > .Herocontent > .text > .buttons > span > svg {
+  fill: #f1a501;
+  height: 52px;
+  width: 52px;
+  box-shadow: 0 15px 60px #df69513f;
+  border-radius: 8rem;
+}
+
+.Hero > .section > .Herocontent > .text > .buttons > button {
+  font-size: 17px;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.5rem;
+  background: #f1a501;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.Hero > .section > .Herocontent > .text > .buttons > span > h4 {
+  font-size: 17px;
+  color: #686d77;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import "./Nav.css";
 import logo from "../../imgs/logo.png";
 import { useState } from "react";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 function Nav() {
   const [dropdown, setDropdown] = useState(0);
   return (
@@ -23,15 +24,19 @@ function Nav() {
             setDropdown(0);
           }}
         >
-          En
           {dropdown ? (
-            <div className="items">
-              <div className="item">Ban</div>
-              <div className="item">Arb</div>
-              <div className="item">Spn</div>
-            </div>
+            <>
+              En <IoIosArrowDown />
+              <div className="items">
+                <div className="item">Ban</div>
+                <div className="item">Arb</div>
+                <div className="item">Spn</div>
+              </div>
+            </>
           ) : (
-            ""
+            <>
+              En <IoIosArrowUp />
+            </>
           )}
         </span>
       </div>

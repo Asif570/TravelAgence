@@ -1,0 +1,25 @@
+.Destination {
+  width: 100%;
+  margin: 5rem 0;
+}
+.Destination > .section {
+  position: relative;
+}
+.Destination > .section > span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #5e6282;
+}
+.Destination > .section > h2 {
+  font-size: 50px;
+  font-weight: 900;
+  color: #14183e;
+  margin: 1rem;
+}
+.Destination > .section > .spring {
+  position: absolute;
+  right: 5%;
+  top: 40%;
+
+  z-index: 1;
+}

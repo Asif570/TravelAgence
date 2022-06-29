@@ -1,0 +1,63 @@
+.Booktrip {
+  width: 100%;
+  margin: 5rem 0;
+}
+.Booktrip > .section > div {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  align-items: flex-end;
+  gap: 2rem;
+}
+.Booktrip > .section > div > .text {
+  text-align: left;
+}
+.Booktrip > .section > div > .text > span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #5e6282;
+}
+.Booktrip > .section > div > .text > h2 {
+  font-size: 50px;
+  font-weight: 900;
+  color: #14183e;
+}
+.Booktrip > .section > div > .text > .valus {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+.Booktrip > .section > div > .text > .valus > .value {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.Booktrip > .section > div > .text > .valus > .value > .info > h2 {
+  margin: 0;
+  color: #5e6282;
+  font-size: 16px;
+  font-weight: 900;
+}
+.Booktrip > .section > div > .text > .valus > .value > .info > span {
+  color: #5e6282;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Booktrip > .section > div > .cards {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+.Booktrip > .section > div > .cards > .card {
+  width: 370px;
+  height: 400px;
+  box-shadow: 0 21.85px 26.3px #00000038;
+  padding: 1.5rem 0;
+  border-radius: 2rem;
+}
+.Booktrip > .section > div > .cards > .card > .tittle {
+  width: 100%;
+  text-align: start;
+}
+.Booktrip > .section > div > .cards > .card > .tittle {
+}

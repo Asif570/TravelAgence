@@ -1,0 +1,26 @@
+.Catogry {
+  height: 525px;
+  width: 100%;
+  margin: 7rem 0;
+  text-align: center;
+}
+.Catogry > .section {
+  width: auto;
+  height: 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.Catogry > .section > span {
+  font-size: 18px;
+  color: #5e6282;
+  font-weight: 600;
+}
+.Catogry > .section > h2 {
+  font-size: 50px;
+  color: #14183e;
+  font-weight: 900;
+  margin: 0;
+}
+.Catogry > .section > .CatogryCards {
+  margin: 5rem 0;
+}
