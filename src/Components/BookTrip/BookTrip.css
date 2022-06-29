@@ -31,6 +31,11 @@
   align-items: center;
   gap: 1rem;
 }
+/* .Booktrip > .section > div > .text > .valus > .value > .info > .bar {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 0.5rem;
+} */
 .Booktrip > .section > div > .text > .valus > .value > .info > h2 {
   margin: 0;
   color: #5e6282;
@@ -47,17 +52,119 @@
   box-sizing: border-box;
   display: flex;
   justify-content: center;
+  position: relative;
+}
+.Booktrip > .section > div > .cards > .shadow {
+  position: absolute;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  z-index: 1;
+  box-shadow: 17px -20px 14rem 20px #59b1e6;
+  top: 1rem;
+  right: 8rem;
+  background: #59b1e6;
 }
 .Booktrip > .section > div > .cards > .card {
-  width: 370px;
-  height: 400px;
+  width: auto;
+  height: 370px;
   box-shadow: 0 21.85px 26.3px #00000038;
-  padding: 1.5rem 0;
+  padding: 1.5rem;
   border-radius: 2rem;
+  background: #fff;
+  z-index: 5;
 }
 .Booktrip > .section > div > .cards > .card > .tittle {
   width: 100%;
   text-align: start;
 }
-.Booktrip > .section > div > .cards > .card > .tittle {
+.Booktrip > .section > div > .cards > .card > .tittle > h2 {
+  margin: 0.7rem 0;
+}
+.Booktrip > .section > div > .cards > .card > .detail {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+  height: max-content;
+  position: relative;
+}
+.Booktrip > .section > div > .cards > .card > .detail > span {
+  font-size: 18px;
+  color: #84829a;
+}
+.Booktrip > .section > div > .cards > .card > .icons {
+  display: flex;
+  height: max-content;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+.Booktrip > .section > div > .cards > .card > .icons > .icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 25px;
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Booktrip > .section > div > .cards > .card > .icons > .icon > svg {
+  color: #84829a;
+}
+.Booktrip > .section > div > .cards > .card > .infobottom {
+  display: flex;
+  height: fit-content;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.Booktrip > .section > div > .cards > .card > .infobottom > svg {
+  color: #4152ca;
+  font-size: 1.5rem;
+}
+.Booktrip > .section > div > .cards > .card > .infobottom > div {
+  display: flex;
+  height: max-content;
+  align-items: center;
+  gap: 1rem;
+}
+.Booktrip > .section > div > .cards > .card > .infobottom > div > span {
+  color: #84829a;
+  font-size: 16px;
+  font-weight: 500;
+}
+.Booktrip > .section > div > .cards > .card > .infobottom > div > svg {
+  color: #84829a;
+  font-size: 1.5rem;
+}
+.Booktrip > .section > div > .cards > .card > .detail > .avat {
+  width: 200px;
+  height: max-content;
+  position: absolute;
+  top: 0;
+  right: -40%;
+  background: #ffff;
+  border-radius: 1rem;
+  box-shadow: 0 21.85px 26.3px #00000023;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+.Booktrip > .section > div > .cards > .card > .detail > .avat > .info {
+  text-align: start;
+}
+.Booktrip > .section > div > .cards > .card > .detail > .avat > .info > span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #84829a;
+}
+.Booktrip > .section > div > .cards > .card > .detail > .avat > .info > h2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #080809;
+
+  margin: 0;
 }

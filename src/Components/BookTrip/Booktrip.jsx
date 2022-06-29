@@ -5,6 +5,7 @@ import icon2 from "../../imgs/icon2.png";
 import icon3 from "../../imgs/icon3.png";
 import rc from "../../imgs/rc.jpg";
 import avata from "../../imgs/avata.png";
+import { ProgressBarLine } from "react-progressbar-line";
 import { FaLeaf, FaChartBar, FaBuilding } from "react-icons/fa";
 import { IoIosSend, IoIosHeartEmpty } from "react-icons/io";
 function Booktrip() {
@@ -46,6 +47,7 @@ function Booktrip() {
             </div>
           </div>
           <div className="cards">
+            <div className="shadow"></div>
             <div className="card">
               <img src={rc} alt="" />
               <div className="tittle">
@@ -53,10 +55,38 @@ function Booktrip() {
               </div>
 
               <div className="detail">
-                <span>10-20</span>
-                <span>by Robbin joseph</span>
+                <span>10-20 june</span>
+                <span>| by Robbin joseph</span>
                 <div className="avat">
                   <img src={avata} alt="" />
+                  <div className="info">
+                    <span>Ongoing</span>
+                    <h2>Trip to rome</h2>
+                    <div className="bar">
+                      <ProgressBarLine
+                        value={40}
+                        min={0}
+                        max={100}
+                        strokeWidth={3}
+                        trailWidth={3}
+                        styles={{
+                          path: {
+                            stroke: "#8A79DF",
+                          },
+                          trail: {
+                            stroke: "#F5F5F5",
+                          },
+                          text: {
+                            fill: "#080809",
+                            textAlign: "left",
+                            fontSize: "14px",
+                          },
+                        }}
+                      />
+                    </div>
+                  </div>
+
+                  <h2></h2>
                 </div>
               </div>
               <div className="icons">
