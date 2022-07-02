@@ -1,0 +1,8 @@
+.Logos > .section {
+  margin: 3rem 0;
+  display: grid;
+  grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+  gap: 2rem;
+  align-items: center;
+  height: max-content;
+}

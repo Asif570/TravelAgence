@@ -1,0 +1,88 @@
+.Slider {
+  display: grid;
+  grid-template-columns: 0.4fr 0.6fr;
+  gap: 2rem;
+  align-items: flex-start;
+  height: 400px;
+}
+.Slider > .left {
+  width: 100%;
+  text-align: start;
+}
+.Slider > .left > span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #5e6282;
+}
+.Slider > .left > h2 {
+  font-size: 50px;
+  font-weight: 900;
+  color: #14183e;
+  margin: 0;
+}
+
+.Slider > .right {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  box-sizing: border-box;
+}
+.Slider > .right > .slide {
+}
+.Slider > .right > .slide > .div {
+  width: 500px;
+  height: 250px;
+  position: relative;
+  padding: 2.5rem 2.5rem 0 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 11.85px 26.3px #00000023;
+  text-align: left;
+  display: none;
+  opacity: 0;
+  background: #000;
+  transition: 1s ease;
+}
+.Slider > .right > .slide > .div.active {
+  display: block;
+  opacity: 1;
+  background: transparent;
+  transition: 1s ease;
+}
+.Slider > .right > .slide > .div > img {
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+}
+.Slider > .right > .slide > .div > .dis {
+  font-size: 16px;
+  font-weight: 600;
+  color: #5e6282;
+}
+.Slider > .right > .slide > .div > .tittle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #5e6282;
+  margin: 0;
+  margin-top: 2rem;
+}
+.Slider > .right > .slide > .div > .location {
+  font-size: 14px;
+  font-weight: 600;
+  color: #5e6282;
+}
+.Slider > .right > .icon {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.Slider > .right > .icon > svg {
+  font-size: 1.7rem;
+  color: #bcb7c2;
+  user-select: none;
+  cursor: pointer;
+}
+.Slider > .right > .icon > svg:hover {
+  font-size: 2rem;
+  color: #545455;
+}

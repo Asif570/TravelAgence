@@ -1,0 +1,74 @@
+.NewsLetter {
+  margin: 3rem 0;
+}
+.NewsLetter > .section {
+  position: relative;
+  box-sizing: border-box;
+}
+.NewsLetter > .section > .news {
+  height: 400px;
+  width: 100%;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 5rem;
+  z-index: 22;
+}
+.NewsLetter > .section > .news > .text > span {
+  font-size: 33px;
+  font-weight: 600;
+  color: #5e6282;
+}
+.NewsLetter > .section > .news > .text {
+  width: 70%;
+}
+.NewsLetter > .section > .news > .input {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.NewsLetter > .section > .news > .input > input {
+  width: 400px;
+  box-sizing: border-box;
+  height: 50px;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.NewsLetter > .section > .news > .input > input::placeholder {
+  font-size: 16px;
+  color: #39425d;
+}
+.NewsLetter > .section > .news > .input > button {
+  background: #ff946d;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  width: 120px;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #ffffff;
+  cursor: pointer;
+}
+.NewsLetter > .section > .news > .send {
+  position: absolute;
+  top: -0.5rem;
+  right: -1rem;
+  z-index: 10;
+}
+.NewsLetter > .section > .Group5 {
+  position: absolute;
+  bottom: -4rem;
+  right: 0;
+  z-index: -1;
+}
